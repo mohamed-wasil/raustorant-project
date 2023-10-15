@@ -1,0 +1,20 @@
+.speciality .speciality__cards .content img {
+    transition: all .7s;
+}
+
+.speciality .speciality__cards .content:hover img {
+    transform: rotateY(180deg)
+}
+
+.speciality .speciality__cards .content h4 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+.speciality .speciality__cards .content p {
+    font-size: 14px;
+    color: var(--seconadary-color);
+    margin-top: 15px;
+}

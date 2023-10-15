@@ -1,0 +1,41 @@
+.special-dish {
+    padding-bottom: 150px;
+}
+
+.special-dish .special-dish__info .info-img {
+    border: 10px solid #ddd;
+}
+
+.special-dish .special-dish__info .info-caption h4 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.special-dish .special-dish__info .info-caption p {
+    margin: 30px 0 9px;
+    font-size: 14px;
+    font-size: 14px;
+    color: var(--seconadary-color);
+}
+
+.special-dish .special-dish__info .info-caption .price {
+    font-size: 40px;
+    margin-top: 20px;
+    color: var(--main-color);
+
+}
+
+.special-dish .carousel-indicators {
+    bottom: -100px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+.special-dish .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-color);
+}

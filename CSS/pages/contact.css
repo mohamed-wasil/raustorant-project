@@ -1,0 +1,36 @@
+/* start section contact  */
+.contact .contact__info .icon {
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.contact .contact__info .icon i {
+    font-size: 30px;
+}
+
+.contact .contact__info h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.contact .contact__info p {
+    color: var(--seconadary-color);
+}
+
+/* end section contact  */
+
+/* start map  */
+.map {
+    height: 50vh;
+}
+/* end map  */
+
+/* start message  */
+.message .message__form input,
+.message .message__form textarea {
+    border: 1px solid var(--main-color)
+}
+/* end message  */

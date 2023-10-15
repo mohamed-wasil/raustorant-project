@@ -1,0 +1,27 @@
+.btn-clr {
+    background-color: transparent;
+    color: var(--main-color);
+    padding: 10px 25px;
+    border: 1px solid var(--main-color);
+    transition: var(--main-transition);
+    letter-spacing: 1px;
+    border-radius: 2px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-clr:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.btn-2 {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-2:hover {
+    color: var(--main-color);
+    background-color: #fff;
+}

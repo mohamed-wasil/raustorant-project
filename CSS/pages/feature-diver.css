@@ -1,0 +1,9 @@
+.cards:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 73%;
+    border-bottom: 1px solid #cccccc75;
+}

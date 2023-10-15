@@ -1,0 +1,51 @@
+.header {
+    margin-top: 30px;
+}
+
+.header .navbar .navbar-toggler {
+    position: absolute;
+    background-color: var(--main-color);
+    left: -10%;
+    width: 10%;
+}
+
+.header .navbar .navbar-toggler span {
+    font-size: 13px;
+}
+
+.header .navbar-nav>.nav-item>.link {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 26px 12px;
+    letter-spacing: 1px;
+}
+
+.header .navbar-nav .nav-item>a::after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--main-color);
+    transition: var(--main-transition);
+    z-index: 2;
+}
+
+.header .navbar-nav .nav-item>a:hover::after {
+    width: 100%;
+}
+
+.header .navbar-nav .nav-item>a.active {
+    position: relative;
+}
+
+.header .navbar-nav .nav-item>a.active::before {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--main-color);
+}

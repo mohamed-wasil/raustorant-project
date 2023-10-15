@@ -1,0 +1,47 @@
+.discover {
+    background-color: var(--section-color);
+}
+
+.discover .discover__cards .box {
+    border: 2px solid #ddd;
+    background: #fff;
+    margin-bottom: 30px;
+    transition: all .5s;
+}
+
+.discover .discover__cards .box:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.discover .discover__cards .box:hover .box-inner h4,
+.discover .discover__cards .box:hover .box-inner p,
+.discover .discover__cards .box:hover p:only-child {
+    color: #fff;
+}
+
+.discover .discover__cards .box .box-img {
+    flex-basis: 50%;
+}
+
+.discover .discover__cards .box .box-inner h4 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    transition: all .5s;
+}
+
+.discover .discover__cards .box .box-inner p {
+    color: var(--seconadary-color);
+    line-height: 20px;
+    font-size: 13px;
+    transition: all .5s;
+}
+
+.discover .discover__cards .box p:only-child {
+    font-size: 26px;
+    color: var(--seconadary-color);
+    transition: all .5s;
+
+}

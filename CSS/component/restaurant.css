@@ -1,0 +1,23 @@
+.restaurant {
+    background-image: url(../../images/Home\ img/welcome.jpg);
+}
+
+.restaurant .restaurant__title .title-img {
+    width: 17%;
+}
+
+.restaurant .restaurant__title h3 {
+    font-size: 70px;
+}
+
+.restaurant .restaurant__title p {
+    margin: 0 10%;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.restaurant .restaurant__title .btn-2:hover {
+    color: var(--main-color);
+    background-color: #fff;
+}

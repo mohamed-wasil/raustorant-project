@@ -1,0 +1,38 @@
+/* start vendor css  */
+@import url(vendor/all.min.css);
+@import url(vendor/bootstrap.min.css);
+/* end vendor css  */
+
+/* start base css  */
+@import url(base/base.css);
+/* end base css  */
+
+/* start component  */
+@import url(component/title.css);
+@import url(component/buttons.css);
+@import url(component/speciality.css);
+@import url(component/discover.css);
+@import url(component/testimonial.css);
+@import url(component/restaurant.css);
+@import url(component/artist.css);
+@import url(component/banner.css);
+@import url(component/special_dish.css);
+/* end component  */
+
+/* start layout  */
+@import url(layout/footer.css);
+@import url(layout/header.css);
+/* end layout  */
+
+/* start pages css  */
+@import url(pages/index.css);
+@import url(pages/pages.css);
+@import url(pages/food.css);
+@import url(pages/contact.css);
+@import url(pages/feature-diver.css);
+@import url(pages/blog.css);
+/* end pages css  */
+
+/* start responsive */
+@import url(responsive/responsive.css);
+/* end responsive */

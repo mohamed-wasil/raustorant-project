@@ -1,0 +1,3 @@
+.banner .banner__info ul li:nth-child(2) a::after {   
+    right: -30%;
+}

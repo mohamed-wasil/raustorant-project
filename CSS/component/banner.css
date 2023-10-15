@@ -1,0 +1,40 @@
+.banner {
+    height: 52vh;
+    background-image: url(../../images/About\ img/breadcrumb.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.banner .banner__info {
+    height: 30vh;
+}
+
+.banner .banner__info ul li {
+    font-size: 11px;
+    padding: 8px 15px;
+}
+
+.banner .banner__info ul li:first-child a::after,
+.banner .banner__info ul li:nth-child(2) a::after {
+    content: '/';
+    color: #FFF;
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner .banner__info ul li:first-child a,
+.banner .banner__info ul li:nth-child(2) a {
+    color: #FFF;
+    transition: var(--main-transition);
+}
+
+.banner .banner__info ul li:first-child a:hover,
+.banner .banner__info ul li:nth-child(2) a:hover {
+    color: var(--main-color);
+}
+
+.banner .banner__info h2 {
+    font-size: 40px;
+}

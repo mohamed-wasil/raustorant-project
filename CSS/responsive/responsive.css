@@ -1,0 +1,168 @@
+/* start xl  */
+@media screen and (max-width: 1200px) {
+
+    .home .home--slides .casrousel-info .info-img {
+        width: 20%;
+        margin-bottom: 0px;
+    }
+}
+
+/* end xl  */
+
+/* start lg */
+@media screen and (max-width: 992px) {
+
+    /* start header  */
+    .header {
+        margin: 0;
+    }
+
+    .header .navbar .navbar-brand {
+        padding: 0;
+    }
+
+    /* end header  */
+
+    /* start section about  */
+    .about .about__image img {
+        width: 100%;
+    }
+
+    /* end section about  */
+
+    /* start dishes  */
+    .dishes .dishes__imgs .img-1 {
+        padding-bottom: 7%;
+    }
+
+    /* end dishes  */
+
+    /* start restaurant  */
+    .restaurant .restaurant__title .title-img {
+        width: 30%;
+    }
+
+    /* end restaurant  */
+
+    /* start artist  */
+    .artist .artist__cards .card-info .caption p {
+        margin-top: 3px;
+        transform: translateX(-10px);
+    }
+
+    .artist .artist__cards .card-info .icons {
+        height: 150px;
+        width: 150px;
+    }
+
+    /* end artist  */
+}
+
+/* end xl */
+
+/* start md  */
+@media screen and (max-width: 768px) {
+
+    /* start header  */
+    .header .navbar-nav>.nav-item>.link {
+        padding: 15px 12px;
+        }
+    /* end header  */
+
+    /* start home  */
+    .home .home--slides {
+        height: 100vh;
+    }
+
+    .home .home--slides {
+        height: 85vh;
+    }
+
+    .home .home__slide-1 .casrousel-info .info-img {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .home .home--slides .casrousel-info h1 {
+        font-size: 50px;
+    }
+
+    .home .home--slides .casrousel-info a {
+        border-color: #fff;
+    }
+
+    .home .home__slide-1 .casrousel-info h1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .home .home__slide-1 .casrousel-info a {
+        margin-top: 15px;
+    }
+
+    /* end home  */
+
+    /* start discovery  */
+    .discover .box {
+        width: 100%;
+    }
+
+    /* end discovery  */
+
+    /* start artist  */
+    .artist .artist__cards .card-info .icons {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* end artist  */
+
+    /* start footer  */
+    .footer .footer__l,
+    .footer .footer__r {
+        text-align: center;
+    }
+
+    .footer .footer__l .footer-logo {
+        margin: auto;
+    }
+
+    /* end footer  */
+}
+
+/* end md  */
+
+/* start sm  */
+@media screen and (max-width: 576px) {
+
+    /* start header  */
+    .header .navbar .navbar-toggler {
+        width: 10%;
+        left: 0;
+    }
+    .header .navbar-nav{
+        padding-inline-start: 8%;
+    }
+
+    /* end header  */
+
+    /* start home  */
+    .home .home--slides {
+        height: 70vh;
+    }
+
+    .home .home--slides {
+        padding-top: 60px;
+    }
+
+    /* end home  */
+
+    /* start restaurant  */
+    .restaurant .restaurant__title .title-img {
+        width: 45%;
+    }
+
+    /* end restaurant  */
+}
+
+/* end sm  */

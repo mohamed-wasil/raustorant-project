@@ -1,0 +1,48 @@
+.testimonial .testimonial__carousel {
+    width: 80%;
+}
+
+.testimonial .testimonial__carousel .carsousel-info .img-vip {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.testimonial .testimonial__carousel .carsousel-info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: var(--seconadary-color);
+}
+
+.testimonial .testimonial__carousel .carsousel-info strong {
+    color: var(--main-color);
+    font-family: raleway;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.testimonial .testimonial__carousel .carousel-btn:first-of-type {
+    left: -10%;
+}
+
+.testimonial .testimonial__carousel .carousel-btn:last-of-type {
+    right: -10%;
+}
+
+.testimonial .testimonial__carousel .carousel-btn {
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.testimonial .testimonial__carousel .carousel-btn:hover {
+    color: #fff;
+}

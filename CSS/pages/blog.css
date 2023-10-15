@@ -1,0 +1,91 @@
+/* start banner  */
+.banner-blog {
+    background-image: url(../../images/blog\ img/breadcrumb-2.jpg);
+    background-position: top;
+}
+/* end banner  */
+
+/* start blog-cards */
+.blog-cards .content {
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+}
+
+.blog-cards .cards__info .vip {
+    font-size: 30px;
+    color: #222;
+    margin-top: 2px;
+    padding-top: 2px;
+    font-weight: 900;
+}
+
+.blog-cards .cards__info .card-l p {
+    border-bottom: 1px dotted #ccc;
+}
+
+.blog-cards .cards__info .card-l span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+}
+
+.blog-cards .cards__info .card-r .links a {
+    color: #ccc;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.blog-cards .cards__info .card-r .vip a {
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.blog-cards .cards__info .card-r p {
+    color: var(--seconadary-color);
+}
+
+.blog-cards .cards__info .card-r .links a,
+.blog-cards .cards__info .card-r .vip a {
+    transition: var(--main-transition);
+}
+
+.blog-cards .cards__info .card-r .links a:hover,
+.blog-cards .cards__info .card-r .vip a:hover {
+    color: var(--main-color);
+}
+/* end blog-cards */
+
+/* start items */
+.items ul {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.items ul li a {
+    font-size: 12px;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    margin-inline-start: -4px;
+}
+
+.items ul li a:hover {
+    color: #2a6496;
+    background-color: #eee;
+}
+
+.items ul li a.active {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.items::after {
+    content: "Page 1 of 2";
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: var(--seconadary-color);
+}
+/* end items */
